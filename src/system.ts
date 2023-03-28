@@ -1,8 +1,8 @@
 import type { Model } from "./types"
 
 export const defaultSetting = {
-  continuousDialogue: true,
-  archiveSession: false,
+  continuousDialogue: false,
+  archiveSession: true,
   openaiAPIKey: "",
   openaiAPITemperature: 60,
   password: "",
